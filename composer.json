@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/dllib",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Roma",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "ext-mysqli": "*",
+    "ext-iconv": "*",
+    "ext-gmp": "*",
+    "ext-curl": "*",
+    "ext-bcmath": "*",
+    "ext-json": "*",
+    "ext-pdo": "*"
+  }
+}
