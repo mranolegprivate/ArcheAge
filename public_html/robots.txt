@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /plugins/
+Disallow: /search/
+Disallow: /cart/
+Disallow: */?s=
+Disallow: *sort=
+Disallow: *view=
+Disallow: *utm=
+Crawl-Delay: 5
+Clean-param: query_id /catalog.php
