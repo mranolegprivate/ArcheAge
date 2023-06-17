@@ -1,0 +1,237 @@
+#rent{
+    max-width: 900px;
+
+}
+
+h1{
+    text-align: center;
+}
+main{
+    height: auto;
+}
+
+.all_info_area{
+    padding: 1em;
+}
+
+#all_info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+    grid-gap: 3vw;
+}
+
+#billmats{
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+#bill{
+    min-height: 14em;
+    padding: 1em;
+    background-color: #ffa61017;
+}
+.timerow{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.contentblock{
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 1px rgba(139, 125, 47, 0.42);
+    min-height: 10em;
+    height: max-content;
+    /*margin: 0 auto;*/
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+
+select{
+    width: 95%;
+    text-align: left;
+}
+
+.selab2>div{
+
+    display: flex;
+    height: 2em;
+    align-content: center;
+    justify-content: space-around;
+}
+.selab2 select{
+    width: 9em;
+}
+.selab{
+    display: flex;
+    justify-content: flex-start;
+    height: 2em;
+}
+.selab2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+.selab2>*{
+    padding-top: 1em;
+}
+.selicon{
+    height: 2em;
+    border: 1px solid;
+
+}
+
+input, select{
+    border-radius: 3px;
+}
+
+#per, #newprice, #time{
+    border: none;
+    border: 1px solid;
+    border-color: #6c3f00;
+    font-size: 1em;
+    color: #6c3f00;
+    height: 2em;
+    width: 4em;
+    text-align: center;
+}
+
+.def_button{
+    background-size: 100% 100%;
+}
+
+#sendprice{
+    width: 3em;
+}
+
+.selab2>div>label{
+    display: flex;
+    flex-wrap: nowrap;
+}
+label>span{
+    vertical-align: center;
+    margin: auto;
+}
+
+.perok{
+min-width: 50%;
+}
+
+
+
+.pharam{
+    text-align: left;
+}
+
+.value{
+    text-align: right;
+}
+
+#newprice{
+    width: 7em;
+}
+
+.pkmats_area{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price_object{
+    border-radius: 1em;
+    background-color: #ffa61017;
+    padding: 3px;
+    width: 100%;
+}
+
+.pricecell_date_row>div>label{
+    display: block;
+}
+
+.buttons{
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#siol + label {
+    opacity: 0.3;
+
+}
+
+#siol:checked + label {
+    opacity: 1;
+}
+
+.transportbuffs{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.transportbuffs>div{
+    width: auto;
+
+}
+
+.price_row{
+    /*width: 320px;*/
+}
+
+input[name="setgold"]{
+    width: 4em;
+}
+.price_pharams{
+    width: auto;
+}
+
+#table_div{
+    /*display: flex;*/
+
+    /*align-content: flex-start;*/
+}
+
+#usertime_area{
+
+}
+
+.perscell>div{
+    padding: 0.5em;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+@media screen and (min-width:800px){
+    .contentblock {
+        width: 100%;
+        min-height: 650px;
+
+    }
+
+    #maters{
+        min-height: 28em;
+    }
+
+    #wayarea{
+        width: 90%;
+        margin: auto;
+
+    }
+
+}
+
+.prices{
+    display: block;
+}
+
+#craft_price{
+    width: 100%;
+    text-align: center;
+}
